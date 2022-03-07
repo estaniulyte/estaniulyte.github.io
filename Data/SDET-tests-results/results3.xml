@@ -1,0 +1,97 @@
+<?xml version="1.0" encoding="utf-8"?>
+<test-run id="2" testcasecount="25" result="Passed" total="25" passed="25" failed="0" inconclusive="0" skipped="0" asserts="0" engine-version="3.5.0.0" clr-version="4.0.30319.42000" start-time="2022-03-07 15:26:16Z" end-time="2022-03-07 15:26:16Z" duration="0.0892836">
+  <test-suite type="TestSuite" id="1001" name="SDET task - text feature" fullname="SDET task - text feature" runstate="Runnable" testcasecount="25" result="Passed" start-time="2022-03-07 15:26:16Z" end-time="2022-03-07 15:26:16Z" duration="0.089284" total="25" passed="25" failed="0" inconclusive="0" skipped="0" asserts="0">
+    <properties />
+    <test-suite type="Assembly" id="1029" name="PlayModeTests.dll" fullname="/Users/evelinastaniulyte/Documents/GitHub/SDET-task/Library/ScriptAssemblies/PlayModeTests.dll" runstate="Runnable" testcasecount="25" result="Passed" start-time="2022-03-07 15:26:16Z" end-time="2022-03-07 15:26:16Z" duration="0.082350" total="25" passed="25" failed="0" inconclusive="0" skipped="0" asserts="0">
+      <properties>
+        <property name="_PID" value="68464" />
+        <property name="_APPDOMAIN" value="Unity Child Domain" />
+        <property name="platform" value="PlayMode" />
+      </properties>
+      <test-suite type="TestFixture" id="1001" name="TextTests" fullname="TextTests" classname="TextTests" runstate="Runnable" testcasecount="25" result="Passed" start-time="2022-03-07 15:26:16Z" end-time="2022-03-07 15:26:16Z" duration="0.081104" total="25" passed="25" failed="0" inconclusive="0" skipped="0" asserts="0">
+        <properties />
+        <test-case id="1002" name="_01CreatingObjectAndCheckDefaultTextComponentValues" fullname="TextTests._01CreatingObjectAndCheckDefaultTextComponentValues" methodname="_01CreatingObjectAndCheckDefaultTextComponentValues" classname="TextTests" runstate="Runnable" seed="331925733" result="Passed" start-time="2022-03-07 15:26:16Z" end-time="2022-03-07 15:26:16Z" duration="0.051061" asserts="0">
+          <properties />
+        </test-case>
+        <test-case id="1003" name="_02TextPrefabExists" fullname="TextTests._02TextPrefabExists" methodname="_02TextPrefabExists" classname="TextTests" runstate="Runnable" seed="875214634" result="Passed" start-time="2022-03-07 15:26:16Z" end-time="2022-03-07 15:26:16Z" duration="0.000277" asserts="0">
+          <properties />
+        </test-case>
+        <test-case id="1004" name="_03TextPrefabHasComponents" fullname="TextTests._03TextPrefabHasComponents" methodname="_03TextPrefabHasComponents" classname="TextTests" runstate="Runnable" seed="415428150" result="Passed" start-time="2022-03-07 15:26:16Z" end-time="2022-03-07 15:26:16Z" duration="0.000293" asserts="0">
+          <properties />
+        </test-case>
+        <test-case id="1005" name="_04TextComponentIsEmpty" fullname="TextTests._04TextComponentIsEmpty" methodname="_04TextComponentIsEmpty" classname="TextTests" runstate="Runnable" seed="327041076" result="Passed" start-time="2022-03-07 15:26:16Z" end-time="2022-03-07 15:26:16Z" duration="0.000244" asserts="0">
+          <properties />
+        </test-case>
+        <test-suite type="ParameterizedMethod" id="1010" name="_05TextComponentNotEqualsToSimilarTextValue" fullname="TextTests._05TextComponentNotEqualsToSimilarTextValue" classname="TextTests" runstate="Runnable" testcasecount="4" result="Passed" start-time="2022-03-07 15:26:16Z" end-time="2022-03-07 15:26:16Z" duration="0.005248" total="4" passed="4" failed="0" inconclusive="0" skipped="0" asserts="0">
+          <properties />
+          <test-case id="1006" name="_05TextComponentNotEqualsToSimilarTextValue(&quot;Hello World !&quot;)" fullname="TextTests._05TextComponentNotEqualsToSimilarTextValue(&quot;Hello World !&quot;)" methodname="_05TextComponentNotEqualsToSimilarTextValue" classname="TextTests" runstate="Runnable" seed="569480189" result="Passed" start-time="2022-03-07 15:26:16Z" end-time="2022-03-07 15:26:16Z" duration="0.000623" asserts="0">
+            <properties />
+          </test-case>
+          <test-case id="1007" name="_05TextComponentNotEqualsToSimilarTextValue(&quot;Hello world !&quot;)" fullname="TextTests._05TextComponentNotEqualsToSimilarTextValue(&quot;Hello world !&quot;)" methodname="_05TextComponentNotEqualsToSimilarTextValue" classname="TextTests" runstate="Runnable" seed="1103660742" result="Passed" start-time="2022-03-07 15:26:16Z" end-time="2022-03-07 15:26:16Z" duration="0.000177" asserts="0">
+            <properties />
+          </test-case>
+          <test-case id="1008" name="_05TextComponentNotEqualsToSimilarTextValue(&quot;hello World !&quot;)" fullname="TextTests._05TextComponentNotEqualsToSimilarTextValue(&quot;hello World !&quot;)" methodname="_05TextComponentNotEqualsToSimilarTextValue" classname="TextTests" runstate="Runnable" seed="467344013" result="Passed" start-time="2022-03-07 15:26:16Z" end-time="2022-03-07 15:26:16Z" duration="0.000203" asserts="0">
+            <properties />
+          </test-case>
+          <test-case id="1009" name="_05TextComponentNotEqualsToSimilarTextValue(&quot;Hello World &quot;)" fullname="TextTests._05TextComponentNotEqualsToSimilarTextValue(&quot;Hello World &quot;)" methodname="_05TextComponentNotEqualsToSimilarTextValue" classname="TextTests" runstate="Runnable" seed="504247611" result="Passed" start-time="2022-03-07 15:26:16Z" end-time="2022-03-07 15:26:16Z" duration="0.000167" asserts="0">
+            <properties />
+          </test-case>
+        </test-suite>
+        <test-case id="1011" name="_06TextComponentEqualsToSetTextValue" fullname="TextTests._06TextComponentEqualsToSetTextValue" methodname="_06TextComponentEqualsToSetTextValue" classname="TextTests" runstate="Runnable" seed="712535341" result="Passed" start-time="2022-03-07 15:26:16Z" end-time="2022-03-07 15:26:16Z" duration="0.000242" asserts="0">
+          <properties />
+        </test-case>
+        <test-suite type="ParameterizedMethod" id="1018" name="_07TextComponentEqualsToSetUnicodeTextValue" fullname="TextTests._07TextComponentEqualsToSetUnicodeTextValue" classname="TextTests" runstate="Runnable" testcasecount="6" result="Passed" start-time="2022-03-07 15:26:16Z" end-time="2022-03-07 15:26:16Z" duration="0.002021" total="6" passed="6" failed="0" inconclusive="0" skipped="0" asserts="0">
+          <properties />
+          <test-case id="1012" name="_07TextComponentEqualsToSetUnicodeTextValue(&quot;Basic Latin - !#%^&amp;*()+_@?~}|qwertyuiopadfghjk&quot;)" fullname="TextTests._07TextComponentEqualsToSetUnicodeTextValue(&quot;Basic Latin - !#%^&amp;*()+_@?~}|qwertyuiopadfghjk&quot;)" methodname="_07TextComponentEqualsToSetUnicodeTextValue" classname="TextTests" runstate="Runnable" seed="182340064" result="Passed" start-time="2022-03-07 15:26:16Z" end-time="2022-03-07 15:26:16Z" duration="0.000275" asserts="0">
+            <properties />
+          </test-case>
+          <test-case id="1013" name="_07TextComponentEqualsToSetUnicodeTextValue(&quot;Latin-1 Supplement - ¡¢£¥©ª®±¶¾ÆðÃÇäĻ&quot;)" fullname="TextTests._07TextComponentEqualsToSetUnicodeTextValue(&quot;Latin-1 Supplement - ¡¢£¥©ª®±¶¾ÆðÃÇäĻ&quot;)" methodname="_07TextComponentEqualsToSetUnicodeTextValue" classname="TextTests" runstate="Runnable" seed="1694604705" result="Passed" start-time="2022-03-07 15:26:16Z" end-time="2022-03-07 15:26:16Z" duration="0.000198" asserts="0">
+            <properties />
+          </test-case>
+          <test-case id="1014" name="_07TextComponentEqualsToSetUnicodeTextValue(&quot;Latin Extended-A - ČęėšųūąĎĦķŇĜŎŴ&quot;)" fullname="TextTests._07TextComponentEqualsToSetUnicodeTextValue(&quot;Latin Extended-A - ČęėšųūąĎĦķŇĜŎŴ&quot;)" methodname="_07TextComponentEqualsToSetUnicodeTextValue" classname="TextTests" runstate="Runnable" seed="903793085" result="Passed" start-time="2022-03-07 15:26:16Z" end-time="2022-03-07 15:26:16Z" duration="0.000175" asserts="0">
+            <properties />
+          </test-case>
+          <test-case id="1015" name="_07TextComponentEqualsToSetUnicodeTextValue(&quot;Latin Extended-B - ΆͿΏΓζεηωϐϒϢϠǣǮ&quot;)" fullname="TextTests._07TextComponentEqualsToSetUnicodeTextValue(&quot;Latin Extended-B - ΆͿΏΓζεηωϐϒϢϠǣǮ&quot;)" methodname="_07TextComponentEqualsToSetUnicodeTextValue" classname="TextTests" runstate="Runnable" seed="685152140" result="Passed" start-time="2022-03-07 15:26:16Z" end-time="2022-03-07 15:26:16Z" duration="0.000168" asserts="0">
+            <properties />
+          </test-case>
+          <test-case id="1016" name="_07TextComponentEqualsToSetUnicodeTextValue(&quot;Greek and Coptic - ΆͿΏΓζεηωϐϒϢϠϧ&quot;)" fullname="TextTests._07TextComponentEqualsToSetUnicodeTextValue(&quot;Greek and Coptic - ΆͿΏΓζεηωϐϒϢϠϧ&quot;)" methodname="_07TextComponentEqualsToSetUnicodeTextValue" classname="TextTests" runstate="Runnable" seed="289152475" result="Passed" start-time="2022-03-07 15:26:16Z" end-time="2022-03-07 15:26:16Z" duration="0.000172" asserts="0">
+            <properties />
+          </test-case>
+          <test-case id="1017" name="_07TextComponentEqualsToSetUnicodeTextValue(&quot;Cyrillic- ЄЍБВМфэюѐњ&quot;)" fullname="TextTests._07TextComponentEqualsToSetUnicodeTextValue(&quot;Cyrillic- ЄЍБВМфэюѐњ&quot;)" methodname="_07TextComponentEqualsToSetUnicodeTextValue" classname="TextTests" runstate="Runnable" seed="1256358591" result="Passed" start-time="2022-03-07 15:26:16Z" end-time="2022-03-07 15:26:16Z" duration="0.000172" asserts="0">
+            <properties />
+          </test-case>
+        </test-suite>
+        <test-case id="1019" name="_08TextComponentEqualsToSetColor" fullname="TextTests._08TextComponentEqualsToSetColor" methodname="_08TextComponentEqualsToSetColor" classname="TextTests" runstate="Runnable" seed="1566445612" result="Passed" start-time="2022-03-07 15:26:16Z" end-time="2022-03-07 15:26:16Z" duration="0.000905" asserts="0">
+          <properties />
+        </test-case>
+        <test-case id="1020" name="_09TextComponentNotEqualsToSetDistinctColor" fullname="TextTests._09TextComponentNotEqualsToSetDistinctColor" methodname="_09TextComponentNotEqualsToSetDistinctColor" classname="TextTests" runstate="Runnable" seed="1499548797" result="Passed" start-time="2022-03-07 15:26:16Z" end-time="2022-03-07 15:26:16Z" duration="0.000313" asserts="0">
+          <properties />
+        </test-case>
+        <test-case id="1021" name="_10TextComponentEqualsToSetFontSize" fullname="TextTests._10TextComponentEqualsToSetFontSize" methodname="_10TextComponentEqualsToSetFontSize" classname="TextTests" runstate="Runnable" seed="1074389607" result="Passed" start-time="2022-03-07 15:26:16Z" end-time="2022-03-07 15:26:16Z" duration="0.000313" asserts="0">
+          <properties />
+        </test-case>
+        <test-case id="1022" name="_11TextComponentEqualsToSetFontStyleNormal" fullname="TextTests._11TextComponentEqualsToSetFontStyleNormal" methodname="_11TextComponentEqualsToSetFontStyleNormal" classname="TextTests" runstate="Runnable" seed="1266533060" result="Passed" start-time="2022-03-07 15:26:16Z" end-time="2022-03-07 15:26:16Z" duration="0.000312" asserts="0">
+          <properties />
+        </test-case>
+        <test-case id="1023" name="_12TextComponentEqualsToSetFontStyleBold" fullname="TextTests._12TextComponentEqualsToSetFontStyleBold" methodname="_12TextComponentEqualsToSetFontStyleBold" classname="TextTests" runstate="Runnable" seed="924406391" result="Passed" start-time="2022-03-07 15:26:16Z" end-time="2022-03-07 15:26:16Z" duration="0.000442" asserts="0">
+          <properties />
+        </test-case>
+        <test-case id="1024" name="_13TextComponentEqualsToSetFontStyleItalic" fullname="TextTests._13TextComponentEqualsToSetFontStyleItalic" methodname="_13TextComponentEqualsToSetFontStyleItalic" classname="TextTests" runstate="Runnable" seed="2137687131" result="Passed" start-time="2022-03-07 15:26:16Z" end-time="2022-03-07 15:26:16Z" duration="0.000274" asserts="0">
+          <properties />
+        </test-case>
+        <test-case id="1025" name="_14TextComponentEqualsToSetFontStyleBoldAndItalic" fullname="TextTests._14TextComponentEqualsToSetFontStyleBoldAndItalic" methodname="_14TextComponentEqualsToSetFontStyleBoldAndItalic" classname="TextTests" runstate="Runnable" seed="145706594" result="Passed" start-time="2022-03-07 15:26:16Z" end-time="2022-03-07 15:26:16Z" duration="0.000294" asserts="0">
+          <properties />
+        </test-case>
+        <test-case id="1026" name="_15TextComponentNotEqualsToSetDifferentFontStyles" fullname="TextTests._15TextComponentNotEqualsToSetDifferentFontStyles" methodname="_15TextComponentNotEqualsToSetDifferentFontStyles" classname="TextTests" runstate="Runnable" seed="261025118" result="Passed" start-time="2022-03-07 15:26:16Z" end-time="2022-03-07 15:26:16Z" duration="0.000236" asserts="0">
+          <properties />
+        </test-case>
+        <test-case id="1027" name="_16TextComponentTextLenghtRetursCorrectValue" fullname="TextTests._16TextComponentTextLenghtRetursCorrectValue" methodname="_16TextComponentTextLenghtRetursCorrectValue" classname="TextTests" runstate="Runnable" seed="590726705" result="Passed" start-time="2022-03-07 15:26:16Z" end-time="2022-03-07 15:26:16Z" duration="0.000394" asserts="0">
+          <properties />
+        </test-case>
+        <test-case id="1028" name="_17CreatingObjectAndTestingTextComponent" fullname="TextTests._17CreatingObjectAndTestingTextComponent" methodname="_17CreatingObjectAndTestingTextComponent" classname="TextTests" runstate="Runnable" seed="59420894" result="Passed" start-time="2022-03-07 15:26:16Z" end-time="2022-03-07 15:26:16Z" duration="0.000472" asserts="0">
+          <properties />
+        </test-case>
+      </test-suite>
+    </test-suite>
+  </test-suite>
+</test-run>

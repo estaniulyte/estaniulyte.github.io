@@ -30,7 +30,7 @@
         "imageUrl": "https://app-wallee.com/resource/web/image/payment/card-brand/mastercard.svg",
         "checked": true
       }, {
-        "value": "10005n",
+        "value": "10005",
         "title": "Direct Debit (SEPA)",
         "subtitle": "Adyen",
         "checked": true

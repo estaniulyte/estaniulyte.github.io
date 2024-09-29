@@ -65,6 +65,11 @@
       },
       {
          "type":"page-title"
+      },
+      {
+         "type":"checkbox-list-panel",
+         "onSubmit":"logToConsole",
+         "options":[]
       }
    ]
 }
